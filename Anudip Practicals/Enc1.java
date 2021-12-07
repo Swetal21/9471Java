@@ -1,21 +1,21 @@
 class Enc
-{private int No;
+{
+private int i;
 
-public int getempNo()
+public int geti()
 {
-return No;
+return i;
 }
-public void setNo(int newvalue)
+public void seti(int newvalue)
 {
-No=newvalue
+i=newvalue;}
 }
 class Enc1{
 
- public static void main(String args[])
+public static void main(String args[])
 {
 Enc obj=new Enc();
-obj.setNo(15);
-System.out.println("No value" +obj.getNo);
-}
+obj.seti(15);
+System.out.println("i value" +obj.geti());
 }
 }
