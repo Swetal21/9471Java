@@ -1,4 +1,4 @@
-jclass Animal
+class Animal
 {
 public void animalSound()
 {
