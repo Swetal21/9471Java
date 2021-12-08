@@ -12,6 +12,6 @@ public class exe13 {
     double Area=a*b;
    System.out.println("Area is " +Area);
    double Perimeter=2*(a+b);
-   System.out.println("Perimeter is " +Perim8eter);
+   System.out.println("Perimeter is " +Perimeter);
 	}
 	}
